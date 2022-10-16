@@ -6,10 +6,11 @@
 */
 int main(void)
 {
+
 	float num1;
-    printf("Test Number:");
-    scanf("%f",&num1);
-    if (num1<0)
+	printf("Test Number:");
+	scanf("%f",&num1);
+	if (num1<0);
     {
         printf("Negative");
     }
@@ -17,5 +18,5 @@ int main(void)
     {
         if (num1>0);
         printf("Positive");
-    }
+	return 0;
 }
