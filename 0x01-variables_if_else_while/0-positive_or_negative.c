@@ -11,12 +11,13 @@ int main(void)
 	printf("Test Number:");
 	scanf("%f",&num1);
 	if (num1<0);
-    {
+{
         printf("Negative");
-    }
-    else
-    {
+}
+	else;
+{
         if (num1>0);
         printf("Positive");
-	return 0;
+}
+	return (0);
 }
