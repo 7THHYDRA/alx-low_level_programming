@@ -3,8 +3,10 @@
 /**
  * main - Anything
  *
- * Return : 0
+ * Return : return 0 always if successful.
  */
+
+
 int main(void)
 {
 	int n;
