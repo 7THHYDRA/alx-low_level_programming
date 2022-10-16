@@ -1,6 +1,6 @@
 #include <stdio.h>
-/*
- * main - entry point for the program.
+/**
+ * main - prints a line of code using printf.
  *
  * Return: 0 if no errors, return non-zero if errors
 */
