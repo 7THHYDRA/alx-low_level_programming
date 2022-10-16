@@ -1,23 +1,15 @@
-#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 /**
- * main - Write a code that prints if a number is positive or negative
+ * main - Anything
  *
- * Return - 0 to termintate the code
-*/
-int main(void)
+ * Return : 0
+ */
 {
+	int n;
 
-	float num1;
-	printf("Test Number:");
-	scanf("%f",&num1);
-	if (num1<0);
-{
-        printf("Negative");
-}
-	else;
-{
-        if (num1>0);
-        printf("Positive");
-}
+	srand(time(0));
+	n = rand() - RAND_MAX / 2;
+	/* your code goes there */
 	return (0);
 }
