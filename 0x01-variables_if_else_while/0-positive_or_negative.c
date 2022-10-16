@@ -1,9 +1,10 @@
 #include <stdlib.h>
 #include <time.h>
+#include <stdio.h>
 /**
  * main - Anything
  *
- * Return : return 0 always if successful.
+ * Return: return 0 always if success.
  */
 
 
