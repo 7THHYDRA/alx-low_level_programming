@@ -9,21 +9,23 @@ int main(void)
 	int row = 48;
 	int irow = row;
 	int column = 49;
-	int icolumn = column;
+	int third = 50;
 
-	for (row = irow; row <= 56; row++)
+	for (row = irow; row <= 55; row++)
 {
-	for (column = icolumn; column <= 57; column++)
+	for (column = row + 1; column <= 56; column++)
+{
+	for (third = column + 1; third <= 57; third++)
 {
 	putchar(row);
 	putchar(column);
-	if (row == '8' && column == '9')
+	putchar(third);
+	if (row == '7' && column == '8' && third == '9')
 	break;
 	putchar(',');
 	putchar(' ');
 }
-	irow++;
-	icolumn++;
+}
 }
 	putchar('\n');
 	return (0);
