@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * mai - Anything.
+ * main - Anything.
  *
  * Return: 0 if success.
  */

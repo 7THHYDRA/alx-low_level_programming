@@ -1,20 +1,19 @@
 #include <stdio.h>
 /**
- * main - anything.
- * 
+ * main - anything
  * Return: 0 if success.
- *
  */
 
 int main(void)
 {
 	int i;
-	char hv[] = "0123456789abcdef";
+	int alpha;
 
-	for (i = '0'; i < 16; i++)
-{
-	putchar(hv[i]);
-}
+	for (i = 48; i <= 57; i++)
+	putchar(i);
+	for (alpha = 97; alpha <= 102; alpha++)
+	putchar(alpha);
 	putchar('\n');
+
 	return (0);
 }
