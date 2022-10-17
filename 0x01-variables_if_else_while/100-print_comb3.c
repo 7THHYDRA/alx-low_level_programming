@@ -15,7 +15,7 @@ int main(void)
 	for (row = irow; row <= 56; row++)
 {
 	for (column = icolumn; column <= 57; column++)
-{	
+{
 	putchar(row);
 	putchar(column);
 	if (row == '8' && column == '9')
