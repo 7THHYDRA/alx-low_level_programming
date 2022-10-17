@@ -7,26 +7,38 @@
 
 int main(void)
 {
-	int row = 48;
-	int irow = row;
-	int column = 49;
-	int third = 50;
+	int i, j, k, m;
 
-	for (row = irow; row <= 55; row++)
+	i = 48;
+	while (i < 58)
 {
-	for (column = row + 1; column <= 56; column++)
+	j = 48;
+	while (j < 58)
 {
-	for (third = column +1; third <= 57; third++)
+	m = j + 1;
+	k = i;
+	while (k < 58)
 {
-	putchar(row);
-	putchar(column);
-	putchar(third);
-	if (row == '7' && column == '8' && third == '9')
-	break;
-	putchar(',');
-	putchar(' ');
+	while (m < 58)
+{
+	putchar(i);
+	putchar(j);
+	putchar(32);
+	putchar(k);
+	putchar(m);
+	if (i < 57 || j < 56 || k < 57 || m < 57)
+{
+	putchar(44);
+	putchar(32);
 }
+	m++;
 }
+	m = 48;
+	k++;
+}
+	j++;
+}
+	i++;
 }
 	putchar('\n');
 	return (0);
