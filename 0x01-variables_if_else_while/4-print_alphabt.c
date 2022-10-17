@@ -6,14 +6,14 @@
 
 int main(void)
 {
-	char i;
+	int i;
 
-	for (i = 'a'; i <= 'z'; i++)
+	for (i = 97; i <= 122; i++)
 {
-	if (i == 'e' || i == 'q')
+	if (i == 113 || i == 101)
 	continue;
 	putchar(i);
 }
-	putchar("\n");
+	putchar('\n');
 	return (0);
 }
