@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- * main - _putchar
+ * main1 - leave me the f
  *
  * Return: 0 as success.
  */
 int main1(void)
 {
-	return(0);
+	return (0);
 }
