@@ -1,10 +1,11 @@
 #include "main.h"
+
 /**
- * main1 - leave me the f
+ * main - leave me the f
  *
  * Return: 0 as success.
  */
-int main1(void)
+int main(void)
 {
 	_putchar('_');
 	_putchar('p');
@@ -15,5 +16,6 @@ int main1(void)
 	_putchar('a');
 	_putchar('r');
 	_putchar('\n');
+
 	return (0);
 }
