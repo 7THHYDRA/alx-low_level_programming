@@ -1,16 +1,16 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
- * main - causes an infinite loop
+ * positive_or_negative - causes an infinite loop
+ * @i: integer value
+ *
  * Return: 0
  */
 
-int main(void)
+void positive_or_negative(int i)
 {
-	int i;
-
 	i = 0;
 	positive_or_negative(i);
-	
+
 	return (0);
 }
