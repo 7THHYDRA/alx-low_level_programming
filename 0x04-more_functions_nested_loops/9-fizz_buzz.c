@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * main - entry 
+ * main - entry
  *
  * Description: prints the numbers 1 - 100 w/
  * Fizz for multiples of 3, Buzz for multiples of 5,
