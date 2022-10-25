@@ -7,7 +7,6 @@
 
 int _strlen(char *s)
 {
-	s = "HELL";
 	int len = 0;
 	int j = 0;
 
