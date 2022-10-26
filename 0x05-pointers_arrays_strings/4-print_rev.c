@@ -12,7 +12,7 @@ void print_rev(char *s)
 
 	for (i = 0; i != '\0'; i++)
 {
-	j = i;	
+	j = i;
 	for (j = j - 1; j <= 0; j--)
 {
 	_putchar(s[j]);
@@ -20,7 +20,3 @@ void print_rev(char *s)
 }
 	_putchar('\n');
 }
-/**
- * let j equals length of string after counting.
- *
- */
