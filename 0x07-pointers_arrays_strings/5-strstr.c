@@ -3,6 +3,7 @@
 /**
  * _strstr - locates a substring
  * @haystack: the longer string to search
+ * @needle: needle momi
  * Return: a pointer beg of substring or @NULL if not found
  */
 
@@ -17,10 +18,10 @@ char *_strstr(char *haystack, char *needle)
 	if (haystack[i + j] == needle[j])
 	j++;
 	else
-		break;
+	break;
 }
 	if (needle[j])
-{	
+{
 	i++;
 	j = 0;
 }
