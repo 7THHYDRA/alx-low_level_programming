@@ -2,18 +2,18 @@
 
 /**
  * _memcpy - copy
- * @dest: 
- * @src:
- * @n:
+ * @dest: desr
+ * @src: src
+ * @n: num
  *
  * Return: char.
  */
 char *_memcpy(char *dest, char *src, unsigned int n)
-{	
+{
 	unsigned int i = 0;
 
 	while (i < n)
-{	
+{
 	dest[i] = src[i];
 	i++;
 }
